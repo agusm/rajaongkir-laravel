@@ -20,7 +20,7 @@
                 <div class="col-md-6 left_col">
         
                     {{-- {{dd($rajaongkir)}} --}}
-                    <h3>Cek Ongkir dari Jogja -> {{$rajaongkir->destination_details->city_name}}</h3>
+                    <h3>Cek Ongkir dari Jogja ke {{$rajaongkir->destination_details->city_name}}</h3>
                     <h3>menggunakan kurir {{$rajaongkir->results[0]->name}}</h3>
 
                     <table class="table">
